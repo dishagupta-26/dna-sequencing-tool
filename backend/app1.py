@@ -66,7 +66,7 @@ def classify_gene_sequence():
             'accuracy': accuracy,
             'confusion_matrix': conf_matrix
         }
-
+        print("accuracy")
         return jsonify(result), 200
     else:
         return jsonify({'error': 'Sequence not provided.'}), 400
