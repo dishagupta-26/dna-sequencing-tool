@@ -142,11 +142,16 @@ const InputForm = ({ onSubmit }) => {
           </form>
         </div>
       </div>
-      <div className="flex">
-        <div className="p-8 w-3/5">
-          <Slider />
-        </div>
 
+
+
+      <div className="flex">
+ 
+      <div className="p-8 w-2/3">
+      <Slider />
+    </div>
+
+       
         <div className="p-8 w-4/5 space-y-6">
           <h1 className="text-4xl font-bold text-blue-400 text-left ">
             Learn More about the Gene Classes
@@ -154,6 +159,10 @@ const InputForm = ({ onSubmit }) => {
 
           <GeneClass />
         </div>
+
+     
+
+
       </div>
     </div>
   );
