@@ -33,5 +33,3 @@ python app1.py
 ```
 
 ---
-
-#About this project:
